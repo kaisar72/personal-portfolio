@@ -1,0 +1,513 @@
+/* Cover page  */
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+}
+
+/*
+ * Base structure
+ */
+body {
+  /* for cover page */
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /* navbar */
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #fff;
+  color: #000000;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+/*
+ * Header
+ */
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* navbar */
+@media (min-width: 576px) .container, .container-sm {
+  max-width: 540px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: var(--bs-gutter-x, .75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+user agent stylesheet div {
+  display: block;
+}
+
+.fs-4 {
+  color: white;
+}
+/* contact page */
+.contact{
+		padding: 4%;
+		height: 400px;
+	}
+	.col-md-3{
+		background: #000000;
+		padding: 4%;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+	.contact-info h2{
+		margin-bottom: 10%;
+	}
+	.col-md-9{
+		background-color: #000000;
+		padding: 3%;
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background: #000000;
+		color: #fff;
+		font-weight: 600;
+		width: 25%;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
+
+}
+
+.navbar-brand{
+font-family: 'Azeret Mono', monospace;
+font-size: 400px;
+
+}
+
+
+
+
+.nav-link{
+  font-family: 'Azeret Mono', monospace;
+  font-family: 'Hina Mincho', serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+
+  padding: 40px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+  color: white;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+
+
+* {box-sizing:border-box}
+
+
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: #FDFDFD;
+}
+
+.a {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+body.menu-active .a{
+  transform: scale(0.9);
+}
+
+.a .inner {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  padding: 0 25px;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.p a {
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+  font-size: 30px;
+  padding: 0 25px;
+  color: #212121;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+
+  transition: all 0.32s ease;
+}
+
+body:not(.menu-active) .p a.menu-activator:hover {
+  transform: rotate(90deg);
+}
+
+body.menu-active .nav a.menu-activator {
+  transform: rotate(90deg);
+}
+
+.p a.white {
+  color: #FAFAFA;
+}
+
+body.menu-active .p a.white {
+  color: #212121;
+  transition: all 0.15s ease;
+}
+
+.p a.link {
+  float: right;
+  position: relative;
+  text-align: center;
+}
+
+.p a.link i {
+  position: absolute;
+  display: block;
+  transform: translateX(-50%);
+
+  transition: all 0.32s ease;
+}
+
+.p a.link i.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.p a.link:hover i {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.p a.link:hover i.hidden {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.p i.ion-cube {
+  display: inline-block;
+  position: absolute;
+  height: 75px;
+  line-height: 75px;
+  font-size: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.a .inner .panel {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 60%;
+  float: left;
+  transform: skew(-20deg);
+}
+
+.a.inner .panel.panel-left {
+  margin-left: -10%;
+}
+
+.a .inner .panel .panel-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) skew(20deg);
+}
+
+.a .inner .panel.panel-left .panel-content .image-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  opacity: 0.95;
+  background-image: url('http://uplusion23.net/images/RickGenestSm.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.a .inner .panel.panel-right {
+  margin-right: -10%;
+  background: #1B1B1B;
+}
+
+.a .inner .panel.panel-right .panel-content .form {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  width: 300px;
+  min-height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-25%);
+}
+
+.a.inner .panel.panel-right .panel-content .form h1 {
+  display: block;
+  margin: 0 0 45px 0;
+  color: #B1B1B1;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+input {
+  font-size: 13px;
+  height: 25px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #B1B1B1;
+  color: #B1B1B1;
+  background: rgba(0,0,0,0);
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  opacity: 1;
+}
+
+label {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 15px;
+  opacity: 0.5;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top: -10px;
+  font-size: 12px;
+  color: #B1B1B1;
+  opacity: 1;
+}
+
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#B1B1B1; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#B1B1B1; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#B1B1B1; }
+  to 	{ width:0; background:transparent; }
+}
+
+a.send-btn {
+  float: right;
+  color: #B1B1B1;
+  transition: 0.2s ease;
+}
+
+a.send-btn:hover {
+  color: #FAFAFA;
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  transition: all 0.33s ease;
+}
+
+.menu::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(240,240,240,0.0);
+
+  transition: all 0.45s ease;
+}
+
+body.menu-active .menu {
+  left: 0;
+}
+
+body.menu-active .menu::before {
+  background: rgba(240,240,240,0.9);
+}
